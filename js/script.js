@@ -61,9 +61,9 @@ function init(){
     context.font = "20px Verdana";
     context.fillStyle = 'black';
     context.textAlign = 'center';
-    context.fillText('In this game, you need to avoids any junk food',x,200);
-    context.fillText('select healthy choices only', x,222);
-    context.fillText('collect the veggies!', x, 244);
+    context.fillText('In this game, you need to avoids any other food',x,200);
+    context.fillText('select Bingo products only', x,222);
+    context.fillText('collect the Bingo!', x, 244);
     context.fillText('Use the arrow keys to move the bag.', x, 276);
     context.fillText('Click anywhere to start.', x, 320);
     canvas.addEventListener('mousedown', chooseDifficulty, false);
